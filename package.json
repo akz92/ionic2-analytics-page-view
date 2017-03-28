@@ -1,0 +1,41 @@
+{
+  "name": "ionic2-analytics-page-view",
+  "version": "0.0.1",
+  "description": "Ionic 2 Service to report page views to Google Analytics",
+  "main": "js/index.js",
+  "typings": "./ionic2-analytics-page-view.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akz92/ionic2-analytics-page-view.git"
+  },
+  "keywords": [
+    "ionic",
+    "ionic2",
+    "analytics",
+    "google",
+    "analytics",
+    "page",
+    "view"
+  ],
+  "author": "Lucas Moulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akz92/ionic2-analytics-page-view/issues"
+  },
+  "homepage": "https://github.com/akz92/ionic2-analytics-page-view#readme",
+  "dependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "ionic-angular": "^2.3.0",
+    "ionic-native": "^2.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.2.2"
+  }
+}
